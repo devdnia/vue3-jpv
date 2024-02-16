@@ -6,9 +6,10 @@
       alt="user image"
     />
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-      <h4 class="project-title2 item">Formulario de contacto</h4>
+      <h4 class="project-title2 item">CONTACTO</h4>
 
       <Form
+        action="https://formsubmit.co/devdnia@gmail.com" method="POST"
         @submit="submitForm"
         :validation-schema="schema"
         v-slot="{ errors }"
@@ -94,6 +95,7 @@
           ENVIAR
         </button>
       </Form>
+
     </div>
   </div>
 </template>
@@ -138,7 +140,6 @@ export default {
       this.formData.phone   = values.phone
       this.formData.comment = values.comment
 
-      console.log( this.formData)
 
     },
   },

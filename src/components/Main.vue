@@ -11,7 +11,7 @@
         >
           Soy
           <a
-            href="#"
+            href="mailto:iperezportillo1984@gmail.com?Subject=Interesado%20en%20pintar"
             target="_blank"
             class="text-black hover:underline"
           >
@@ -22,7 +22,7 @@
         <div class="md:flex gap-1 md:gap-10">
           <a 
             class="text-white bg-gray-800 submit-button hidden md:block hover:bg-slate-600"
-            href="#work" v-smooth-scroll
+            href="#testimonial" v-smooth-scroll
           >
             MIS TRABAJOS
           </a>

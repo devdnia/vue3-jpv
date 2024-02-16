@@ -38,6 +38,9 @@
   color: white;
   @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
 }
+.headingCarousel{
+  @apply text-gray-700 md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+}
 
 .project-title {
   @apply text-gray-700 text-3xl md:text-4xl font-work_sans tracking-wide font-bold;
