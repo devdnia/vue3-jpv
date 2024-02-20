@@ -37,7 +37,7 @@
 
       <div class="w-8/12 flex justify-end">
         <img
-          class="3xl:h-[700px] 2xl:h-[550px] xl:h-[450px] lg:h-[450px] md:h-[350px] sm:h-[250px]"
+          class="3xl:h-[700px] 2xl:h-[550px] xl:h-[450px] lg:h-[450px] md:h-[450px] sm:h-[350px]"
           src="../assets/fondoWEB.png"
           alt="user image"
         />
